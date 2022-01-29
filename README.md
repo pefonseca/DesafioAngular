@@ -10,10 +10,6 @@ Este projeto tem como objetivo colocar em pratica o conteúdo apresentado refere
 
 :small_blue_diamond: [Entity Framework](https://docs.microsoft.com/en-us/ef/)
 
-:small_blue_diamond: [Swagger](https://swagger.io/docs/)
-
-:small_blue_diamond: [AutoMapper](https://automapper.org/)
-
 :small_blue_diamond: [Angular](https://angular.io/)
 
 ## Requisitos do Sistema
