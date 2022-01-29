@@ -1,9 +1,7 @@
-# Desafio WEB API
+# Desafio Angular
 
-Desenvolvido duas WEB APIs, uma baseada em um Gerenciador (CRUD) de cargos politicos e outra em fazer o consumo dos dados não sensíveis.
-
-
-Tem como objetivo colocar em pratica o conteúdo apresentado referente a Entity Framework, ASP.NET e WEB API, afim de certificar o conhecimento adquirido.
+Desenvolvido uma WEB API, baseada em um Gerenciador (CRUD) de para login e ECommerce e um front-end com Angular para consumir os dados da API.
+Este projeto tem como objetivo colocar em pratica o conteúdo apresentado referente a Entity Framework, ASP.NET e WEB API e Angular, afim de certificar o conhecimento adquirido.
 
 ## Linguagens e libs utilizadas :books:
 
@@ -19,28 +17,19 @@ Tem como objetivo colocar em pratica o conteúdo apresentado referente a Entity 
 
 ## Requisitos do Sistema
 
-Execute `ng serve` para um servidor dev. Navegue até `http://localhost:4200/` . O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
+1 - Primeiro execute o comando `docker-compose up --detach` na pasta raiz, para ativar o service em Docker para armanezar os pedidos do usuário na loja
 
-## Estrutura de  código
+2 - Execute a API na pasta "C#-BackEnd/API" com o seguinte comando `dotnet watch run` OBS: não precisa fazer migrations e atualizar o banco de dados.
 
-Execute `ng generate component component-name` para gerar um novo componente. Você também pode usar `ng generate Directive|pipe|service|class|guard|interface|enum|module` .
+3 - Execute o comando `npm install` na pasta "Angular-FrontEnd/client" para instalar a biblioteca do Framework Angular
 
-##  Construir
+4 - Em seguida execute `ng serve` para um servidor dev. Navegue até `http://localhost:4200/` . O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
 
-Execute `ng build` para compilar o projeto. Os artefatos de construção serão armazenados no diretório `dist/` . Use o sinalizador `--prod` para uma compilação de produção.
+## Interface do Sistema
 
-##  Executando testes de unidade
-
-Execute `ng test` para executar os testes de unidade via [ Karma ](https://karma-runner.github.io).
-
-##  Executando testes de ponta a ponta
-
-Execute `ng e2e` para executar os testes de ponta a ponta via [ Transferidor ](http://www.protractortest.org/).
-
-##  Mais ajuda
-
-Para obter mais ajuda sobre a CLI Angular, use `ng help` ou confira a página [ Visão geral da CLI Angular e referência de comandos ](https://angular.io/cli).
-#  e-commerce-angular
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/63111481/151669740-29e6a8b0-33cb-4eb0-b17c-7a6ea0afe3fb.png" width="600"/>
+</p>
 
 ## Desenvolvedor
 
