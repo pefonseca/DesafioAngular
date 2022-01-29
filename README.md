@@ -1,6 +1,7 @@
 # Desafio Angular
 
 Desenvolvido uma WEB API, baseada em um Gerenciador (CRUD) de para login e ECommerce e um front-end com Angular para consumir os dados da API.
+
 Este projeto tem como objetivo colocar em pratica o conteúdo apresentado referente a Entity Framework, ASP.NET e WEB API e Angular, afim de certificar o conhecimento adquirido.
 
 ## Linguagens e libs utilizadas :books:
